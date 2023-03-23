@@ -1,5 +1,15 @@
 function recursiveSearch(arr, target) {
-  // type your code here
+  
+  //cycle thru array
+  //check if target and arr value is the same
+
+  for (const value of arr){
+    if (value === target){
+      return true
+    }
+  }
+  return false
+
 }
 
 if (require.main === module) {
